@@ -10,8 +10,8 @@ import multiprocessing
 
 import tensorflow as tf
 
-import maia_chess_backend
-import maia_chess_backend.maia
+import maiachess.move_prediction.maia_chess_backend as maia_chess_backend
+#maia_chess_backend.maia
 
 SKIP = 32
 
